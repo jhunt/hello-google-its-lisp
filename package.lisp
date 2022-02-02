@@ -10,4 +10,5 @@
 (in-package #:cl-user)
 (defpackage #:cloud-run
   (:use :cl)
+  (:local-nicknames (:ht :hunchentoot))
   (:export :run))

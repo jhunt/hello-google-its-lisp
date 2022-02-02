@@ -11,7 +11,9 @@
     :description "..."
     :homepage "https://jameshunt.us/p/cloud-run"
     :serial t
-    :depends-on (:cl-json)
+    :depends-on (:cl-json
+                 :hunchentoot)
     :components ((:file "package")
                  (:file "utilities")
+                 (:file "run")
                  (:file "ops"))))

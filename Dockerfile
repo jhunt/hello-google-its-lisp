@@ -18,5 +18,6 @@ RUN /usr/bin/sbcl --noinform --disable-ldb --disable-debugger \
       --load /app/compile.lisp \
       --quit
 
+ENV PORT 4242
 ENTRYPOINT ["/usr/bin/sbcl"]
 CMD ["--load", "entrypoint.lisp"]

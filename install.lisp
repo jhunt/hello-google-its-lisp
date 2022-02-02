@@ -17,3 +17,4 @@
 (quicklisp-quickstart:install :path "/opt/quicklisp")
 (ql::without-prompting (ql:add-to-init-file))
 (ql:quickload :cl-json)
+(ql:quickload :hunchentoot)
